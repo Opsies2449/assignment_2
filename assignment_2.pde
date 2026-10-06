@@ -10,10 +10,11 @@ void setup() {
 
 void draw() { 
   background(0, 0, 0); 
+  
+  String menu = "Tim is lost find materials to survive!"; 
 
 if (won == false) { 
     println("materials wood " + wood + " matches " + matches + " skewers " + skewers + " food " + food); 
-String menu = "Tim is lost find materials to survive!"; 
      
     if (wood == false) { 
       menu = menu + "1 North to main lodge"; 
